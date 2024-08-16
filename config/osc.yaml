@@ -1,0 +1,11 @@
+# This file is used to configure the models used in the touchdesigner project.
+# Note: any cofig key ending with "dir" or "path" will be expanded to full paths.
+
+LX_IN_IP: "127.0.0.1"
+LX_IN_PORT: "7891"
+
+STEMS_IN_IP: "127.0.0.1"
+STEMS_IN_PORT: "3030"
+
+TE_ENGINE_IN_IP: "127.0.0.1"
+TE_ENGINE_IN_PORT: "6060"
