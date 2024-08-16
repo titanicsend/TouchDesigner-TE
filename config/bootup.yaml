@@ -1,0 +1,4 @@
+# This file is used to configure the models used in the touchdesigner project.
+# Note: any cofig key ending with "dir" or "path" will be expanded to full paths.
+
+ENABLE_SD: False
