@@ -4,16 +4,16 @@
 ENABLE_SD: False
 
 # These are ports used to communicate with the LX running on TE (TE Engine -> LX)
-TE_LX_IP: 127.0.0.1
+TE_LX_IP: 10.1.1.1
 TE_LX_PORT: 3030
 
 # This is the address for the random strobe effect on master channel
-TE_LX_RAND_STROBE_CH: lx/mixer/master/effect/3
+TE_LX_RAND_STROBE_CH: lx/mixer/master/effect/2
 
 # These are ports used to communicate with the LX running on Mothership (TE Engine -> MSHIP)
-MSHIP_LX_IP: 10.0.0.2
-MSHIP_LX_PORT: 3031
+MSHIP_LX_IP: 10.128.1.1
+MSHIP_LX_PORT: 3030
 
 # These are ports used to communicate with the the Stable Diffusion engine (TE Engine -> The Experiment)
-SD_IP: 127.0.0.1
+SD_IP: 10.1.1.18
 SD_OSC_PORT: 6063
